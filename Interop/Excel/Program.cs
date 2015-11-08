@@ -11,7 +11,12 @@ namespace Excel
 
 			IOWrite write = new IOWrite (data);
 
-			Console.WriteLine ("Hello!");
+			//Набиране на данни в основната таблица;
+			data.addRow("Мартин", "Симеонов","33");
+			data.addRow("Георги", "Маринов","37");
+
+			//проверка на таблицата
+			data.printTable();
 		}
 	}
 }
