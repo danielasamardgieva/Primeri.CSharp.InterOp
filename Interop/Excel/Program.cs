@@ -6,7 +6,12 @@ namespace Excel
 	{
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Hello World!");
+
+			Datastruct data = new Datastruct ();
+
+			IOWrite write = new IOWrite (data);
+
+			Console.WriteLine ("Hello!");
 		}
 	}
 }
