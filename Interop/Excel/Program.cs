@@ -17,6 +17,8 @@ namespace Excel
 
 			//проверка на таблицата
 			data.printTable();
+			write.exportTable ();
+		    write.runFile ();
 		}
 	}
 }
